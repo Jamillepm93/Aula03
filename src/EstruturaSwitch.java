@@ -13,6 +13,26 @@ public class EstruturaSwitch {
 	
 		//Aqui precisamos de uma estrutura para validar a opção inserida.
 
+		switch (opcao) {
+		case 1:
+			System.out.pritln ("Que profissional organizado você é! Incrível!");
+			break;
+			
+		case 2: 
+			System.out.println ("A sua orelja esquerda é bastante flexível!");
+			break;
+			
+		case 3:
+			System.out.println ("Você é muito sensivel as necessidades dos seus gatos. Parabéns!");
+			break;
+			
+		default:
+			System.out.println ("Opção inválida");
+			break;
+			
+		}
+		
+		
 		leitor.close();
 
 	}
